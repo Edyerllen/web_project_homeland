@@ -14,37 +14,32 @@
   line-height: 1.14;
 }
 
-@media screen and (max-width: 1100px) {
-  .footer {
-    margin-top: 88px;
-  }
-}
 
 @media screen and (max-width: 1024px) {
   .footer {
     margin-top: 88px;
   }
-}
-
-@media screen and (max-width: 665px) {
-  .footer {
-    margin-top: 80px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .footer {
-    margin-top: 64px;
-  }
-
   .footer__copyright {
-    font-size: 12px;
-    line-height: 1.17;
+    font-size: 14px;
+    line-height: 0.88;
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width:768px) {
   .footer {
     margin-top: 72px;
   }
+
+
 }
+
+@media screen and (max-width: 320px) {
+  .footer {
+    margin-top: 64px;
+  }
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 1;
+  }
+}
+
