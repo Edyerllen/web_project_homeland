@@ -19,7 +19,7 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 1.42;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .intro__author {
@@ -37,45 +37,39 @@
   line-height: 1.63;
 }
 
-
 @media screen and (max-width: 1024px) {
   .intro__title {
     font-size: 54px;
-    line-height: 0.93;
+    line-height: 1.07;
   }
 
   .intro__quote,
   .intro__author {
     font-size: 24px;
-    line-height: 0.71;
+    line-height: 1.42;
   }
-
 }
 
 @media screen and (max-width: 768px) {
   .intro__title {
     font-size: 45px;
-    line-height: 0.92;
+    line-height: 1.07;
   }
-
 }
 
 @media screen and (max-width: 320px) {
-
   .intro {
     margin-top: 64px;
   }
 
   .intro__title {
     font-size: 32px;
-    line-height: 0.91;
+    line-height: 1.09;
   }
 
   .intro__quote,
   .intro__author {
     font-size: 24px;
-    line-height:0.8;
+    line-height: 1.42;
   }
-  
 }
-
